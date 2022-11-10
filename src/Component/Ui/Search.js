@@ -12,7 +12,6 @@ const onChange = (q) => {
   return (
     <div>
         <input type='text' className="form-control" placehholder="search charaters"  value={text} onChange={(e) => onChange(e.target.value)} autoFocus/>
-      
     </div>
   )
 }
